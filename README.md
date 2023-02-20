@@ -13,7 +13,7 @@ step 2: apply git amend and change the message
 ![amend](./images/git%20amend.png)
 ![change-message](./images/amend.png)
 
-step 3:push those changes into remote
+step 3:push those changes into remote 
 ![after](./images/after%20change.png)
 
 
