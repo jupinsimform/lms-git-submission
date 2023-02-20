@@ -1,1 +1,2 @@
 git rebase change tha base of current branch.
+thid is 1st commit in dummy1.
