@@ -12,12 +12,6 @@
 | Command        | Description          
 | ------------- |:-------------:
 |git pull  | Fetch + merge
-|git merge bugfix | Merges the bugfix branch into the current branch
-|git merge --no-ff bugfix | Creates a merge commit even if FF is possible
-|git merge --squash bugfix | Performs a squash merge
-|git merge --abort  | Aborts the merge
-|git branch --merged | Shows the merged branches
-|git branch --no-merged | Shows the unmerged branches
 
 
 step 1:create a feature branch
@@ -35,3 +29,21 @@ step 4:merge pull request
 
 step 5:after mergeing with master commit
 ![show commmit](./image/commit.png)
+
+## merging
+    The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
+
+Note that all of the commands presented below merge into the current branch.
+| Command        | Description          
+| ------------- |:-------------:
+|git merge bugfix | Merges the bugfix branch into the current branch
+|git merge --no-ff bugfix | Creates a merge commit even if FF is possible
+|git merge --squash bugfix | Performs a squash merge
+|git merge --abort  | Aborts the merge
+|git branch --merged | Shows the merged branches
+|git branch --no-merged | Shows the unmerged branches
+
+
+
+Merge feature branch with task-1
+![merge](./image/merge.png)
